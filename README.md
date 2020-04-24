@@ -1,6 +1,6 @@
 # Global Game Jam 2020
 
-Our project for the third 
+Our project for the third iteration of the EPITECH Game JAM
 
 ## Installation
 
@@ -11,6 +11,9 @@ You first absolutely need to have previously installed the SFML, to install thes
 
 ```sh
 git clone https://github.com/huntears/JAM_escape_2019.git && cd JAM_escape_2019
+mkdir build
+cd build
+cmake ..
 make
 ```
 
