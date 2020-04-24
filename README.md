@@ -1,2 +1,29 @@
-# JAM_escape_2019
-Third Iteration of the Epitech Game JAM 2020
+# Global Game Jam 2020
+
+Our project for the third 
+
+## Installation
+
+You first absolutely need to have previously installed the SFML, to install these depedencie please go to the official repo and follow the instructions :
+[SFML](https://github.com/sfml/sfml)
+
+### From sources
+
+```sh
+git clone https://github.com/huntears/JAM_escape_2019.git && cd JAM_escape_2019
+make
+```
+
+### From releases
+
+Go on the release page and choose your preferred version :)
+
+## Credits
+
+* Alexandre FLION
+* José RODRIGUES
+* Alexandre TISSOT
+
+## License
+
+This project is licensed under the MIT License
