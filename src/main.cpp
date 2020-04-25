@@ -1,7 +1,8 @@
 #include <iostream>
-#include "sample.hpp"
+#include "prototype.hpp"
+#include "definition.hpp"
 
 int main()
 {
-    return (hello());
+    return (SceneManager());
 }
