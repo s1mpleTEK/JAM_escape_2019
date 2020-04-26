@@ -80,6 +80,7 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
     sf::Texture key_t;
     key_t.loadFromFile(Key);
     sf::Sprite key_s;
+    key_s.setTexture(key_t);
     key_s.setPosition(sf::Vector2f(0, 0));
 
     //Game loop
@@ -92,6 +93,8 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
                 switch (event.mouseButton.button)
                     {
                     case sf::Mouse::Left:
+                        if (over_key && room1_e)
+                            key = 1;
                         if (over_right)
                             switch (room1)
                             {
@@ -148,7 +151,7 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
                                 room1--;
                                 break;
                             }
-                        if (over_door)
+                        if (over_door && room1_n)
                             switch (key)
                             {
                             case 1:
@@ -157,14 +160,6 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
                             
                             default:
                                 doorlock_m.play();
-                                break;
-                            }
-                        if (over_key)
-                            switch (key)
-                            {
-                            case 0:
-                                key_s.setTexture(key_t);
-                                key = 1;
                                 break;
                             }
                     }
@@ -212,16 +207,18 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
                 over_door = 0;
         
         //Over key
-        if (((mouse_x > CADRE_POS_X) && (mouse_x < (CADRE_POS_X+CADRE_DIM_X))) && ((mouse_x > CADRE_POS_Y) && (mouse_x < (CADRE_POS_Y+CADRE_DIM_Y))))
-            if (key == 0 && room1_e)
-                over_key = 1;
+        if (((mouse_x > CADRE_POS_X) && (mouse_x < (CADRE_POS_X+CADRE_DIM_X))) && ((mouse_y > CADRE_POS_Y) && (mouse_y < (CADRE_POS_Y+CADRE_DIM_Y)))){
+            over_key = 1;
+        } else
+            over_key = 0;
 
         ///Render
         window.clear(sf::Color(255, 255, 0, 255)); //Clear old frame
 
         ///Draw your game
         window.draw(room1_s);
-        window.draw(key_s);
+        if (key)
+            window.draw(key_s);
         
         //Draw arrow
         if (over_left)
