@@ -113,9 +113,22 @@ CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuGameLoop.cpp -o CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.s
 
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o: CMakeFiles/EPITECH_JAM.dir/flags.make
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o: ../src/gameloop/MenuEndGameLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o -c /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuEndGameLoop.cpp
+
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuEndGameLoop.cpp > CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.i
+
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuEndGameLoop.cpp -o CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.s
+
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o: CMakeFiles/EPITECH_JAM.dir/flags.make
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o: ../src/gameloop/HtpGameLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o -c /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/HtpGameLoop.cpp
 
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.i: cmake_force
@@ -128,7 +141,7 @@ CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.s: cmake_force
 
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o: CMakeFiles/EPITECH_JAM.dir/flags.make
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o: ../src/gameloop/PlayGameLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o -c /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/PlayGameLoop.cpp
 
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.i: cmake_force
@@ -144,6 +157,7 @@ EPITECH_JAM_OBJECTS = \
 "CMakeFiles/EPITECH_JAM.dir/src/main.cpp.o" \
 "CMakeFiles/EPITECH_JAM.dir/src/SceneManager.cpp.o" \
 "CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o" \
+"CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o" \
 "CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o" \
 "CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o"
 
@@ -153,6 +167,7 @@ EPITECH_JAM_EXTERNAL_OBJECTS =
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/main.cpp.o
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/SceneManager.cpp.o
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o
+EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/build.make
@@ -161,7 +176,7 @@ EPITECH_JAM: /usr/lib64/libsfml-audio.so.2.5.1
 EPITECH_JAM: /usr/lib64/libsfml-window.so.2.5.1
 EPITECH_JAM: /usr/lib64/libsfml-system.so.2.5.1
 EPITECH_JAM: CMakeFiles/EPITECH_JAM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable EPITECH_JAM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable EPITECH_JAM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EPITECH_JAM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

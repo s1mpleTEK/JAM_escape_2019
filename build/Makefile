@@ -194,6 +194,33 @@ src/gameloop/HtpGameLoop.cpp.s:
 	$(MAKE) -f CMakeFiles/EPITECH_JAM.dir/build.make CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.s
 .PHONY : src/gameloop/HtpGameLoop.cpp.s
 
+src/gameloop/MenuEndGameLoop.o: src/gameloop/MenuEndGameLoop.cpp.o
+
+.PHONY : src/gameloop/MenuEndGameLoop.o
+
+# target to build an object file
+src/gameloop/MenuEndGameLoop.cpp.o:
+	$(MAKE) -f CMakeFiles/EPITECH_JAM.dir/build.make CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o
+.PHONY : src/gameloop/MenuEndGameLoop.cpp.o
+
+src/gameloop/MenuEndGameLoop.i: src/gameloop/MenuEndGameLoop.cpp.i
+
+.PHONY : src/gameloop/MenuEndGameLoop.i
+
+# target to preprocess a source file
+src/gameloop/MenuEndGameLoop.cpp.i:
+	$(MAKE) -f CMakeFiles/EPITECH_JAM.dir/build.make CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.i
+.PHONY : src/gameloop/MenuEndGameLoop.cpp.i
+
+src/gameloop/MenuEndGameLoop.s: src/gameloop/MenuEndGameLoop.cpp.s
+
+.PHONY : src/gameloop/MenuEndGameLoop.s
+
+# target to generate assembly for a file
+src/gameloop/MenuEndGameLoop.cpp.s:
+	$(MAKE) -f CMakeFiles/EPITECH_JAM.dir/build.make CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.s
+.PHONY : src/gameloop/MenuEndGameLoop.cpp.s
+
 src/gameloop/MenuGameLoop.o: src/gameloop/MenuGameLoop.cpp.o
 
 .PHONY : src/gameloop/MenuGameLoop.o
@@ -290,6 +317,9 @@ help:
 	@echo "... src/gameloop/HtpGameLoop.o"
 	@echo "... src/gameloop/HtpGameLoop.i"
 	@echo "... src/gameloop/HtpGameLoop.s"
+	@echo "... src/gameloop/MenuEndGameLoop.o"
+	@echo "... src/gameloop/MenuEndGameLoop.i"
+	@echo "... src/gameloop/MenuEndGameLoop.s"
 	@echo "... src/gameloop/MenuGameLoop.o"
 	@echo "... src/gameloop/MenuGameLoop.i"
 	@echo "... src/gameloop/MenuGameLoop.s"

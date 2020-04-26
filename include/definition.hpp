@@ -7,6 +7,7 @@
 
 //Scene
 #define MENU 1
+#define MENU_END 42
 #define HTP 2
 #define PLAY 3
 #define QUIT 4

@@ -6,6 +6,7 @@ set(SOURCES
     src/main.cpp
     src/SceneManager.cpp
     src/gameloop/MenuGameLoop.cpp
+    src/gameloop/MenuEndGameLoop.cpp
     src/gameloop/HtpGameLoop.cpp
     src/gameloop/PlayGameLoop.cpp
 )

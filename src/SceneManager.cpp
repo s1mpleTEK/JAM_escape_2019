@@ -13,6 +13,10 @@ int SceneManager(void)
         case MENU:
             game = MenuGameLoop(window, game);
             break;
+
+        case MENU_END:
+            game = MenuEndGameLoop(window, game);
+            break;
         
         case HTP:
             game = HtpGameLoop(window, game);

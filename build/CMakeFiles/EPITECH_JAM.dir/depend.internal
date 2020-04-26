@@ -11,6 +11,12 @@ CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o
  ../include/definition.hpp
  ../include/prototype.hpp
  /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/HtpGameLoop.cpp
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o
+ ../include/class/Music.h
+ ../include/definition.hpp
+ ../include/position.hpp
+ ../include/prototype.hpp
+ /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuEndGameLoop.cpp
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o
  ../include/class/Music.h
  ../include/definition.hpp

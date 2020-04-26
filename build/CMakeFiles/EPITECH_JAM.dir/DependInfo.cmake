@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/SceneManager.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/SceneManager.cpp.o"
   "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/HtpGameLoop.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o"
+  "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuEndGameLoop.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuEndGameLoop.cpp.o"
   "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuGameLoop.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o"
   "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/PlayGameLoop.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/gameloop/PlayGameLoop.cpp.o"
   "/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/main.cpp" "/home/jrodrigues/delivery/JAM/JAM_escape_2019/build/CMakeFiles/EPITECH_JAM.dir/src/main.cpp.o"

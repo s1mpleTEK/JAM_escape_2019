@@ -155,7 +155,7 @@ int PlayGameLoop(sf::RenderWindow &window, int game)
                             switch (key)
                             {
                             case 1:
-                                game = MENU;
+                                game = MENU_END;
                                 break;
                             
                             default:
