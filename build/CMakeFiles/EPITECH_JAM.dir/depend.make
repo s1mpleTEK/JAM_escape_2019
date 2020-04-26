@@ -12,6 +12,7 @@ CMakeFiles/EPITECH_JAM.dir/src/gameloop/HtpGameLoop.cpp.o: ../src/gameloop/HtpGa
 
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o: ../include/class/Music.h
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o: ../include/definition.hpp
+CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o: ../include/position.hpp
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o: ../include/prototype.hpp
 CMakeFiles/EPITECH_JAM.dir/src/gameloop/MenuGameLoop.cpp.o: ../src/gameloop/MenuGameLoop.cpp
 

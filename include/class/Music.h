@@ -21,6 +21,7 @@ class Music
     void play(void)
     {
         music.play();
+        music.setVolume(50);
     }
 
     void stop(void)

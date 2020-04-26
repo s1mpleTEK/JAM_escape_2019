@@ -12,38 +12,20 @@ SFML/Audio.hpp
 
 ../include/definition.hpp
 
+../include/position.hpp
+
 ../include/prototype.hpp
 SFML/Graphics.hpp
 -
-
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/HtpGameLoop.cpp
-iostream
--
-SFML/Graphics.hpp
--
-Music.h
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/Music.h
-prototype.hpp
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/prototype.hpp
-definition.hpp
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/definition.hpp
 
 /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuGameLoop.cpp
 iostream
 -
 SFML/Graphics.hpp
 -
-Music.h
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/Music.h
-prototype.hpp
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/prototype.hpp
-definition.hpp
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/definition.hpp
-
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/PlayGameLoop.cpp
-iostream
+SFML/System.hpp
 -
-SFML/Graphics.hpp
+SFML/Window.hpp
 -
 Music.h
 /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/Music.h
@@ -51,4 +33,6 @@ prototype.hpp
 /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/prototype.hpp
 definition.hpp
 /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/definition.hpp
+position.hpp
+/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/position.hpp
 
