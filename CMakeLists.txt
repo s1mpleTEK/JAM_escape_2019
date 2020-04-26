@@ -4,7 +4,10 @@ project("EPITECH_JAM")
 
 set(SOURCES
     src/main.cpp
-    src/hello.cpp
+    src/SceneManager.cpp
+    src/gameloop/MenuGameLoop.cpp
+    src/gameloop/HtpGameLoop.cpp
+    src/gameloop/PlayGameLoop.cpp
 )
 
 find_package(SFML COMPONENTS graphics window REQUIRED)
@@ -14,9 +17,10 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 target_link_libraries(${PROJECT_NAME}
     PUBLIC 
     sfml-graphics 
-    sfml-window)
+    sfml-audio)
 
 target_include_directories(${PROJECT_NAME}
     PRIVATE 
         ${PROJECT_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}/include/class
 )
