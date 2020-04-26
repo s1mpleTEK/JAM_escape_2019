@@ -9,18 +9,22 @@
 
 int MenuGameLoop(sf::RenderWindow &window, int game)
 {
+    //Variable
     int over_jouer = 0;
     int over_quitter = 0;
     int mouse_x = 0;
     int mouse_y = 0;
 
+    //Event
     sf::Event event;
 
+    //Audio
     Music menu_m;
     menu_m.addMusic(MenuMusic);
     menu_m.loop(true);
     menu_m.play();
 
+    //Menu
     sf::Texture menu_t;
     menu_t.loadFromFile(MenuImg);
     sf::Texture menu_up_t;
@@ -30,6 +34,7 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
     sf::Sprite menu_s;
     menu_s.setTexture(menu_t);
 
+    //Jouer
     sf::Texture jouerw_t;
     jouerw_t.loadFromFile(JouerImg_W);
     sf::Texture jouerr_t;
@@ -38,6 +43,7 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
     jouer_s.setTexture(jouerw_t);
     jouer_s.setPosition(sf::Vector2f(JOUER_POS_X, JOUER_POS_Y));
 
+    //Quitter
     sf::Texture quitterw_t;
     quitterw_t.loadFromFile(QuitterImg_W);
     sf::Texture quitterg_t;
@@ -46,9 +52,10 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
     quitter_s.setTexture(quitterw_t);
     quitter_s.setPosition(sf::Vector2f(QUITTER_POS_X, QUITTER_POS_Y));
 
-    //Game loop
+    ///Game loop
     while (window.isOpen() && game == MENU) {
-        //Event polling
+
+        ///Event polling
         while (window.pollEvent(event)) {
             switch (event.type)
             {
@@ -57,13 +64,9 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
                     {
                     case sf::Mouse::Left:
                         if (over_jouer)
-
                             game = PLAY;
                         if (over_quitter)
                             game = QUIT;
-                        break;
-                    
-                    default:
                         break;
                     }
                     break;
@@ -83,12 +86,15 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
                     break;
             }
         }
-        
-        //Update
+
+        ///Update
+
+        //Position mouse
         sf::Vector2i mouse = sf::Mouse::getPosition(window);
         mouse_x = mouse.x;
         mouse_y = mouse.y;
 
+        //Over Jouer
         if (((mouse_x > JOUER_POS_X) && (mouse_x < (JOUER_POS_X + JOUER_DIM_X))) 
         && ((mouse_y > JOUER_POS_Y) && (mouse_y < (JOUER_POS_Y + JOUER_DIM_Y)))) {
                 jouer_s.setTexture(jouerr_t);
@@ -98,6 +104,8 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
                 jouer_s.setTexture(jouerw_t);
                 over_jouer = 0;
             }
+
+        //Over Quitter
         if (((mouse_x > QUITTER_POS_X) && (mouse_x < (QUITTER_POS_X+QUITTER_DIM_X))) 
         && ((mouse_y > QUITTER_POS_Y) && (mouse_y < (QUITTER_POS_Y+QUITTER_DIM_Y)))) {
                 quitter_s.setTexture(quitterg_t);
@@ -107,13 +115,15 @@ int MenuGameLoop(sf::RenderWindow &window, int game)
                 quitter_s.setTexture(quitterw_t);
                 over_quitter = 0;
             }
+
+        //Over rien
         if (over_jouer == 0 && over_quitter == 0)
             menu_s.setTexture(menu_t);
 
-        //Render
+        ///Render
         window.clear(sf::Color(255, 255, 255, 255)); //Clear old frame
 
-        //Draw your game
+        ///Draw your game
         window.draw(menu_s);
         window.draw(jouer_s);
         window.draw(quitter_s);

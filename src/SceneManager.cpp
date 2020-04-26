@@ -1,10 +1,11 @@
 #include <iostream>
 #include "prototype.hpp"
 #include "definition.hpp"
+#include "position.hpp"
 
 int SceneManager(void)
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "ESCAPE", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(X, Y), "ESCAPE", sf::Style::Close);
     int game = MENU;
     while (game != QUIT) {
         switch (game)

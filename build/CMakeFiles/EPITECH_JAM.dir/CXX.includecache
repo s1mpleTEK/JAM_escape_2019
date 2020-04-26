@@ -18,14 +18,10 @@ SFML/Audio.hpp
 SFML/Graphics.hpp
 -
 
-/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/MenuGameLoop.cpp
+/home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/PlayGameLoop.cpp
 iostream
 -
 SFML/Graphics.hpp
--
-SFML/System.hpp
--
-SFML/Window.hpp
 -
 Music.h
 /home/jrodrigues/delivery/JAM/JAM_escape_2019/src/gameloop/Music.h
